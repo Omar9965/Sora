@@ -1,0 +1,375 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good morning",
+        "Good afternoon",
+        "Is anyone there?",
+        "Howdy",
+        "Greetings",
+        "Hey there",
+        "What's up?",
+        "Yo!",
+        "Hi there!",
+        "Hey, how's it going?",
+        "Hello there!",
+        "Good evening",
+        "What's happening?",
+        "What's going on?"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hey there! Need any assistance?",
+        "Hi! I'm here to assist you.",
+        "Good to see you! How can I help?",
+        "Hey! Ready to get started?",
+        "Hi there, what can I do for you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Talk to you soon",
+        "Catch you later",
+        "See ya",
+        "Later!",
+        "Gotta go",
+        "Talk soon!",
+        "Peace out"
+      ],
+      "responses": [
+        "Goodbye! Have a wonderful day!",
+        "See you later! Take care.",
+        "Bye! Feel free to come back anytime.",
+        "Talk to you soon!",
+        "Catch you later, stay safe!",
+        "See you next time!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot",
+        "Much appreciated",
+        "Thanks for your help",
+        "I appreciate it",
+        "Many thanks",
+        "Big thanks",
+        "Thank you so much"
+      ],
+      "responses": [
+        "You're very welcome!",
+        "Glad I could assist!",
+        "Anytime! Happy to help.",
+        "My pleasure. Let me know if you need anything else.",
+        "Always here to help!",
+        "No problem at all!"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "What are your products?",
+        "Can you list your items?",
+        "What can I buy here?",
+        "Show me your products",
+        "What do you have in store?",
+        "What are you offering?",
+        "Tell me what I can purchase"
+      ],
+      "responses": [
+        "We offer a variety of coffee and tea products.",
+        "You can buy fresh coffee, premium tea, and accessories.",
+        "We sell coffee beans, tea leaves, mugs, and brewing equipment.",
+        "Our collection includes specialty coffees, fine teas, mugs, and brewing kits."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with PayPal?",
+        "Are you cash only?",
+        "Is Google Pay accepted?",
+        "Can I use Apple Pay?",
+        "Do you take Amex?",
+        "Can I use Venmo?",
+        "What payment methods do you accept?",
+        "Is cash payment available?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard, PayPal, Google Pay, and Apple Pay.",
+        "Most major credit cards and digital wallets are accepted.",
+        "You can pay using credit cards, PayPal, and mobile wallets like Google Pay and Apple Pay.",
+        "Cash payments are also accepted if you prefer."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?",
+        "Is shipping fast?",
+        "What's the delivery time?",
+        "Will my order arrive soon?",
+        "How quickly do you ship?",
+        "What's your shipping speed?",
+        "How fast is your delivery?",
+        "When can I expect my package?"
+      ],
+      "responses": [
+        "Delivery usually takes 2-4 business days.",
+        "Shipping time is typically 2 to 4 days.",
+        "Expect your delivery within 2-4 business days.",
+        "Most orders arrive within 2-4 working days."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "Make me laugh",
+        "Say something funny",
+        "Crack a joke",
+        "Cheer me up",
+        "I need a laugh",
+        "Got any jokes?",
+        "Humor me"
+      ],
+      "responses": [
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "What do you call fake spaghetti? An impasta!",
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "I would tell you a construction joke, but I'm still working on it.",
+        "Why did the math book look sad? Because it had too many problems."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?",
+        "Tell me the weather",
+        "Weather forecast please",
+        "Is it raining today?",
+        "Do I need an umbrella?",
+        "What's the temperature outside?",
+        "Is it sunny?",
+        "How's the weather?",
+        "Will it snow today?",
+        "Is it cold outside?"
+      ],
+      "responses": [
+        "Let me check the weather for you...",
+        "Fetching the latest weather updates...",
+        "I'll get the weather report for you right away.",
+        "Checking today's weather for you..."
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it?",
+        "Tell me the time",
+        "Current time please",
+        "Can you give me the time?",
+        "What's the time?",
+        "Time right now?",
+        "What’s the exact time?",
+        "What’s the clock say?",
+        "Can you check the time?",
+        "Current local time?"
+      ],
+      "responses": [
+        "Let me check the time for you...",
+        "It's time to shine! Let me find the exact time...",
+        "Checking the current time for you...",
+        "Hang on, getting the current time..."
+      ]
+    },
+    {
+      "tag": "set_reminder",
+      "patterns": [
+        "Remind me to call mom",
+        "Set a reminder for my meeting",
+        "Can you remind me to buy groceries?",
+        "I need a reminder for tomorrow",
+        "Remind me about the appointment",
+        "Set an alarm for my call",
+        "Help me remember my task",
+        "Can you set a reminder for me?",
+        "Remind me to pick up the kids",
+        "Don't let me forget my meeting"
+      ],
+      "responses": [
+        "Sure! What time would you like me to set the reminder for?",
+        "Got it. Please tell me the date and time for the reminder.",
+        "Reminder noted. When should I alert you?",
+        "Of course! Let me know the timing details."
+      ]
+    },
+    {
+      "tag": "small_talk",
+      "patterns": [
+        "How are you?",
+        "What's up?",
+        "How's it going?",
+        "Are you okay?",
+        "How are you feeling?",
+        "How do you do?",
+        "Everything good?",
+        "How’s your day?",
+        "What's new?",
+        "Hope you're doing well"
+      ],
+      "responses": [
+        "I'm just a bot, but I'm doing great! How can I help you?",
+        "I'm here and ready to assist you!",
+        "Feeling helpful as always!",
+        "All systems operational! How can I assist you today?"
+      ]
+    },
+    {
+      "tag": "about_bot",
+      "patterns": [
+        "Who are you?",
+        "What can you do?",
+        "Tell me about yourself",
+        "Are you a human?",
+        "What is your purpose?",
+        "What are you here for?",
+        "What do you do?",
+        "Are you a robot?",
+        "Are you real?",
+        "Can you tell me about yourself?"
+      ],
+      "responses": [
+        "I'm Sora, your personal assistant bot! I can help with tasks, answer questions, and more.",
+        "I'm Sora, an AI assistant here to make your life easier!",
+        "I'm Sora, a virtual assistant ready to help you with anything you need.",
+        "I'm an AI designed to assist you with information, tasks, and fun conversations!"
+      ]
+    },
+    {
+      "tag": "news",
+      "patterns": [
+        "What's the latest news?",
+        "Tell me the news",
+        "Any news updates?",
+        "Current news headlines?",
+        "What's happening in the world?",
+        "What's new today?",
+        "Give me today's news",
+        "Update me on current events",
+        "Breaking news?",
+        "Latest world news?"
+      ],
+      "responses": [
+        "Let me pull up the latest news for you...",
+        "Here's the current news summary...",
+        "Checking the latest headlines for you now.",
+        "Let me find the top news stories for you!"
+      ]
+    },
+    {
+      "tag": "calculator",
+      "patterns": [
+        "What's 5 plus 7?",
+        "Can you calculate 15 times 3?",
+        "What's the result of 25 divided by 5?",
+        "Do some math for me",
+        "Can you solve 8 minus 2?",
+        "What's 45% of 90?",
+        "How much is 99 plus 101?",
+        "Solve 12 x 4",
+        "What's 150 divided by 3?",
+        "Add 123 and 456 for me"
+      ],
+      "responses": [
+        "Sure, let me calculate that for you!",
+        "Doing the math right now...",
+        "One moment, solving it...",
+        "Let me crunch those numbers for you!"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "Tell me something motivating",
+        "Give me a motivational quote",
+        "I need some inspiration",
+        "Motivate me",
+        "Say something inspiring",
+        "Inspire me",
+        "I need a boost",
+        "Can you inspire me?",
+        "Share a motivational thought",
+        "Any inspiring words?"
+      ],
+      "responses": [
+        "Believe you can and you're halfway there.",
+        "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+        "Your limitation—it’s only your imagination.",
+        "Push yourself, because no one else is going to do it for you."
+      ]
+    },
+    {
+      "tag": "music_recommendation",
+      "patterns": [
+        "Suggest a song",
+        "Can you recommend some music?",
+        "Give me a music recommendation",
+        "What should I listen to?",
+        "Any song suggestions?",
+        "I need music",
+        "Suggest a playlist",
+        "What are some good songs?",
+        "Play me something",
+        "Music recommendations please"
+      ],
+      "responses": [
+        "You might enjoy 'Blinding Lights' by The Weeknd!",
+        "How about 'Shape of You' by Ed Sheeran?",
+        "Try listening to 'Levitating' by Dua Lipa!",
+        "Maybe 'As It Was' by Harry Styles will suit your mood!"
+      ]
+    },
+    {
+      "tag": "health_tips",
+      "patterns": [
+        "Give me a health tip",
+        "Any advice for staying healthy?",
+        "Tell me a wellness tip",
+        "How can I stay healthy?",
+        "Any health advice?",
+        "Tips for good health?",
+        "How to stay fit?",
+        "Ways to boost immunity?",
+        "Healthy living tips?",
+        "Share a health secret"
+      ],
+      "responses": [
+        "Remember to stay hydrated and drink plenty of water!",
+        "Aim for at least 30 minutes of exercise a day.",
+        "Eat a balanced diet rich in fruits and vegetables.",
+        "Get enough sleep—it's essential for good health!"
+      ]
+    }
+  ]
+}
