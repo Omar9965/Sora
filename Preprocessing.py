@@ -24,7 +24,6 @@ all_words = sorted(set(all_words))
 tags = sorted(set(tags))
 
 
-# Fit TF-IDF on LEMMATIZED sentences
 lemmatized_sentences = [" ".join([lemmatize_word(w) for w in pattern]) for pattern, _ in xy]
 tfidf_vectorizer = TfidfVectorizer()
 tfidf_vectorizer.fit(lemmatized_sentences)
