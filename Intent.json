@@ -227,8 +227,6 @@
     {
       "tag": "small_talk",
       "patterns": [
-        "How are you?",
-        "What's up?",
         "How's it going?",
         "Are you okay?",
         "How are you feeling?",
