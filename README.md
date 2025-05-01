@@ -24,14 +24,9 @@
 - [NLTK](https://www.nltk.org/)
 - [scikit-learn](https://scikit-learn.org/)
 - [Jinja2](https://jinja.palletsprojects.com/)
-- [tqdm](https://tqdm.github.io/), NumPy
-
+- [tqdm](https://tqdm.github.io/)
+  
 ## 📁 Project Structure
-
-
----
-
-## 📂 File Explanations
 
 | File / Folder        | Description |
 |----------------------|-------------|
