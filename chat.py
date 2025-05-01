@@ -82,7 +82,7 @@ async def chat(request: ChatRequest):
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
 
-    if prob.item() > 0.75:
+    if prob.item() > 0.50:
         for intent in intents['intents']:
             if tag == intent['tag']:
                 return ChatResponse(response=random.choice(intent['responses']))
