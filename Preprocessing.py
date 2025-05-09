@@ -23,10 +23,9 @@ all_words = [lemmatize_word(w) for w in all_words]
 all_words = sorted(set(all_words))
 tags = sorted(set(tags))
 
-
-sentences = [" ".join([lemmatize_word(w) for w in pattern]) for pattern, _ in xy]
+lemmatized_sentences = [" ".join([lemmatize_word(w) for w in pattern]) for pattern, _ in xy]
 tfidf_vectorizer = TfidfVectorizer()
-tfidf_vectorizer.fit(sentences)
+tfidf_vectorizer.fit(lemmatized_sentences)
 
 X = []
 y = []
