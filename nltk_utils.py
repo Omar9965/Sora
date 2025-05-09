@@ -17,8 +17,7 @@ def lemmatize_word(word):
     return wordnet_lemmatizer.lemmatize(word.lower())
 
 def sentence_to_tfidf(tokenized_sentence, tfidf_vectorizer):
-    lemmatized = [lemmatize_word(w) for w in tokenized_sentence]
-    sentence_str = " ".join(lemmatized)
+    sentence_str = " ".join(tokenized_sentence)
     tfidf_vector = tfidf_vectorizer.transform([sentence_str]).toarray()[0]
     return tfidf_vector.astype(np.float32)
 
