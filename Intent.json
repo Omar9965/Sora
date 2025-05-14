@@ -245,8 +245,6 @@
     {
       "tag": "about_bot",
       "patterns": [
-        "Who are you?",
-        "What can you do?",
         "Tell me about yourself",
         "Are you a human?",
         "What is your purpose?",
