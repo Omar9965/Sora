@@ -71,9 +71,7 @@ uvicorn main:app --reload
 User: Hello!
 Chatbot: Hi there! How can I help you today?
 
-## 🎬 Demo
 
-![Sora Chatbot Demo](demo.png)
 محمد احمد عبدالسميع:412200294
 
 محمد بابكر عزالدين عبدالباسط:412200624
