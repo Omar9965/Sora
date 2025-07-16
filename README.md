@@ -70,10 +70,3 @@ uvicorn main:app --reload
 
 User: Hello!
 Chatbot: Hi there! How can I help you today?
-
-
-وليد صبري محمد عبده:412200405
-
-محمد مدحت السيد جلال:412200341
-
-عمر محمد أمين علي:412200266
